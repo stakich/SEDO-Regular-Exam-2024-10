@@ -2,7 +2,7 @@ name: Build and test .NET application
 
 on:
   push:
-    branches: [ "branches" ]
+    branches: [ "develop" ]
 
 jobs:
   build_run_unit_tests:
